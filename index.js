@@ -46,3 +46,56 @@ console.log(newArray3);
 const sakib = require("./app");
 
 console.log(sakib);
+
+
+// write an array that store 4 students information as a object and then find the  age of students  which is === 30  to understand filter method.
+
+const studentsInformation  = [
+
+    {name:"sakib", age : 22},
+    {name:"rakib", age : 30},
+    {name:"talha", age : 24},
+    {name:"jahidul", age : 30},
+    {name:"anamul", age : 30},
+    {name:"jahidul2", age : 35}
+];
+
+const  filterResult = studentsInformation.filter((element)=>{
+
+      if(element.age===30){
+        return element.age ; 
+      }
+});
+
+console.log(filterResult);
+
+// example 15 : E-commerce related  , suppose a user select 3 different product . now you need to calculate the sum of those 3 product price using reduce() method.
+
+const userCard =[
+
+    {productId : 1, productName : "mobile", price : 12000},
+    {productId : 2, productName : "laptop", price : 22000},
+    {productId : 3, productName : "tv", price : 15000},
+    ]
+    const totalAmount = userCard.reduce((totalPrice,currentProduct) => {return totalPrice+currentProduct.price},1000);// we set 1000  as a 2nd parameter that is represent initial total price .
+    console. log(totalAmount);
+
+    // sort the range of product price  for do that you need to clone the existing array .
+
+    const product2 = [
+    {productId : 1, productName : "mobile", price : 12000},
+    {productId : 2, productName : "laptop", price : 22000},
+    {productId : 3, productName : "tv", price : 15000},
+    ];
+
+    // now i clone the existing array 
+    const SortingThePrice = product2.slice(0).sort((a,b)=>{return a.price-b.price});
+    console.log(SortingThePrice );
+
+    
+    
+
+
+
+
+
