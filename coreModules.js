@@ -92,7 +92,7 @@ fs.unlink('file1.txt', (err) => {
 
     //6. Checking if a File Exists:
 
-//he second argument is the mode or constant that specifies the type of accessibility check. In this example, fs.constants.F_OK is used, which checks for the existence of the file. Other modes include fs.constants.R_OK (readable), fs.constants.W_OK (writable), and fs.constants.X_OK (executable).
+//the second argument is the mode or constant that specifies the type of accessibility check. In this example, fs.constants.F_OK is used, which checks for the existence of the file. Other modes include fs.constants.R_OK (readable), fs.constants.W_OK (writable), and fs.constants.X_OK (executable).
 
 fs.access('file.txt', fs.constants.F_OK, (err) => {
     if (err) {
