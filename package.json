@@ -1,0 +1,11 @@
+{
+  "name": "node_basic_to_advanced",
+  "version": "1.0.0",
+  "description": "\"node explore \"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sakib",
+  "license": "ISC"
+}
