@@ -25,3 +25,6 @@ const server = http.createServer((req,res)=>{
 server.listen(3000,'localhost',()=>{
     console.log("server is running ")
 });
+
+
+//// when we run this project in another device then to run this command in terminal " npm install" then it,s installed all the dependencies.
