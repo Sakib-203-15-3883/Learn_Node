@@ -1,20 +1,19 @@
-// import http module 
+// import http module
 
 const http = require("http");
 
-// create server 
+// creating a server 
+// import http module
+const http = require("http");
 
-const server = http.createServer((req, res)=>{
+// creating a server
+res.statusCode = 200;
+    res.setHeader('Content-Type','text/plain');
+const server = http.createServer((req, res) => {
+  res.end("You need to learn JavaScript concepts");
+});
 
-    res.statusCode = 200;
-    res.setHeader("Content-Type","text/plain");
-
-    res.end("You need to learn node in details ");
-
-})
-
-//starting the server 
-
-server.listen(4000,"localhost",()=>{
-    console.log("server is running ");
-})
+// calling the server
+server.listen(4000, 'localhost', () => {
+  console.log("Server is running");
+});
