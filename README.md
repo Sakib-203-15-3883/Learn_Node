@@ -1,14 +1,14 @@
 ﻿# Learn_NodeJS
 
- #Event_driven_architecture:
+ # Event_driven_architecture:
 
 Node.js is built on an event-driven, non-blocking I/O model, which allows for efficient handling of concurrent requests.
 
- #Asynchronous programming: 
+ # Asynchronous programming: 
 
 Node.js promotes asynchronous programming using callbacks, promises, or async/await syntax to handle I/O operations without blocking the execution of other tasks.
 
- #Modules:
+ # Modules:
 
 Node.js follows the CommonJS module system, allowing you to break your code into reusable modules and use require() to import modules.
 
@@ -22,18 +22,18 @@ File System Operations: The fs module in Node.js provides functionality for inte
 
 # third party modules
 
- #NPM (Node Package Manager):
+ # NPM (Node Package Manager):
 
 NPM is the default package manager for Node.js, providing access to a vast ecosystem of open-source packages and libraries.
 
- #Error handling:
+ # Error handling:
 
 Proper error handling is crucial in Node.js applications. It involves handling both synchronous and asynchronous errors, and using try/catch blocks or error-first callbacks.
 
- #Promises and async/await:
+ # Promises and async/await:
 
 Promises and async/await are modern JavaScript features used for handling asynchronous operations in a more readable and synchronous-like manner.
 
- #Deployment and Hosting:
+ # Deployment and Hosting:
 
 Node.js applications can be deployed to various platforms, including cloud providers (e.g., AWS, Azure), containerization platforms (e.g., Docker), or traditional servers.
