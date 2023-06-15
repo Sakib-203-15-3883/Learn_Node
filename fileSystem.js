@@ -1,4 +1,3 @@
-//In Node.js, core modules refer to the set of built-in modules that come bundled with the Node.js runtime environment. These modules provide essential functionality to work with different aspects of the operating system, file system, network, and more. They are readily available for use without the need for additional installation or external dependencies.
 
 //  fs: File System module for working with files and directories.
 
@@ -21,7 +20,7 @@
 
 const fs = require('fs');
 
-fs.readFile('file.txt', 'utf8', (err, data) => {
+fs.readFile('newFile.txt', 'utf8', (err, data) => {
     if (err) {
     console.error(err);
     return;

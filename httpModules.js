@@ -9,9 +9,10 @@ const http = require('http');
 
 const server = http.createServer((req,res)=>{
     
-    //Setting the response status code and headers:now
-    res.statusCode = 200;
-    res.setHeader('Content-Type','text/plain');
+    //The first argument of the res.writeHead() method is the status code, 200 means that all is OK, the second argument is an object containing the response headers.
+    res.writeHead(200, {'Content-Type': 'text/html'});
+
+    res.write(req.url);
 
     //Sending the response:
 
