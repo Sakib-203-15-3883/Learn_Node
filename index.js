@@ -41,7 +41,7 @@ const newArray3 = array3.map((element)=>{
 console.log(array3);
 console.log(newArray3);
 
-// write a code with are import data from app.js file 
+// write a code which are import data from app.js file 
 
 const sakib = require("./app");
 

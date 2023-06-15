@@ -16,7 +16,7 @@
   "author": "sakib",
   "license": "ISC",
   "dependencies": {
+    "capitalize": "^2.0.4",
     "mysql": "^2.18.1"
   }
 }
-
