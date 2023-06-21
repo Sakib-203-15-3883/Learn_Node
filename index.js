@@ -29,6 +29,7 @@ arr[index] = newValue;
 console.log(array2);
 
 
+
 // we create an array with 10 values and modify each array element and create new array with that new value . 
 
 const array3 = [1,2,3,4,5,6,7,8,9];
@@ -89,6 +90,7 @@ const userCard =[
     ];
 
     // now i clone the existing array 
+    
     const SortingThePrice = product2.slice(0).sort((a,b)=>{return a.price-b.price});
     console.log(SortingThePrice );
 

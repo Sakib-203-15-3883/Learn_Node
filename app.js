@@ -1,4 +1,4 @@
-// create a object that is export in index.js file 
+// create a object that is export in several file 
 
 const sakib = {
     name: "sakib",

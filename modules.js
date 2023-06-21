@@ -1,3 +1,5 @@
+// Every file is a module by default.
+
 // A module is a piece of reusable JavaScript code.Modules help developers adhere to the DRY (Don't Repeat Yourself) principle in programming.
 
 // ///////        1.  Built-in Modules    ////////////////////
@@ -31,8 +33,14 @@ server.listen(8080,"localhost",()=>{
 
 // here , we import data from app.js file .here, we  need to provide the path of the file as an argument.
 
-const data = require("./app");
-console.log(data);
+const{ name, age, subject , experience, address } = require("./app");
+
+console.log(name);
+console.log(age);
+console.log(subject);
+console.log(experience);
+console.log(address);
+console.log(address.country);
 
 /////////         3. Third-Party Modules          //////////////////////
 
@@ -41,3 +49,4 @@ console.log(data);
 const capitalize = require('capitalize');
 
 console.log(capitalize("hello")) ;// It performs functions like capitalizing the first letter of a word.
+
