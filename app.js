@@ -14,4 +14,11 @@ const sakib = {
     }
 }
 
+const lodash = require('lodash');
+const array = [1,[2,[3,[4,[5]]]]];
+
+const newArray = lodash.flatMapDeep(array);
+console.log( newArray);
+
+
 module.exports = sakib;
